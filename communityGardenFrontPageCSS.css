@@ -1,0 +1,91 @@
+#headerImage {
+  width: 100%;
+  height: 200px;
+}
+
+.topnav a {
+  float: left;
+  color: #3e3e3f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 155px;
+
+}
+
+#logo {
+  width: 30%;
+  float: left;
+}
+.topper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.line
+{
+  height: 1px
+  float:left;
+  border: solid black 1px;
+  width: 100%;
+}
+
+.blogDiv
+{
+ border: solid 2px black;
+ position: absolute;
+ top: 240px;
+ left: 50px;
+
+ height: 300px;
+ width: 70%;
+ max-width: 900px;
+
+}
+.descriptionText
+{
+border: solid black 2px;
+position: absolute;
+left: 40px;
+top: 560px;
+width:30%;
+height: 180px;
+}
+
+.eventsDiv{
+border: solid black 2px;
+position: absolute;
+left: 35%;
+top: 560px;
+height: 180px;
+width: 35%;
+}
+
+.facebookDiv
+{
+ border: solid black 2px;
+ position: absolute;
+ right: 50px;
+ width: 20%;
+ height: 250px;
+ top: 240px;
+}
+
+.twitterDiv
+{
+border: solid black 2px;
+position: absolute;
+right: 50px;
+width: 20%;
+height: 250px;
+top: 560px; 
+}
