@@ -37,6 +37,7 @@
   float:left;
   border: solid black 1px;
   width: 100%;
+  width-max: 100%; 
 }
 
 .blogDiv
@@ -87,5 +88,5 @@ position: absolute;
 right: 50px;
 width: 20%;
 height: 250px;
-top: 560px; 
+top: 560px;
 }

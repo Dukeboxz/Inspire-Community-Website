@@ -5,7 +5,7 @@
     <title>Volunteer at the Community Garden</title>
       <link rel="stylesheet" type="text/css" href="communityGardenFrontPageCSS.css">
       <link rel="stylesheet" href="volunteer.css">
-      <script type="text/JavaScript" src="commGardenFrontPage.js"></script>
+      <script type="text/JavaScript" src="volunteer.js"></script>
 
   </head>
   <body>
@@ -34,9 +34,13 @@
 
         </div>
         <div class="buttonContainer">
-          <button class="button" id="getFitButton" type="button" name="button">I am looking to improve my physical and/or mental health</button>
-          <button class="button" id="skillsButton" type="button" name="button">I am looking to learn new skills</button>
-          <button class="button" id="newPeopleButton" type="button" name="button">I am looking to meet new people</button>
+          <button class="button" id="getFitButton" type="button" name="button" onclick="loadScheme(1)">I am looking to improve my physical and/or mental health</button>
+          <button class="button" id="skillsButton" type="button" name="button" onclick="loadScheme(2)">I am looking to learn new skills</button>
+          <button class="button" id="newPeopleButton" type="button" name="button" onclick="loadScheme(3)">I am looking to meet new people</button>
+        </div>
+
+        <div id="schmeDiv">
+
         </div>
 
   </body>
