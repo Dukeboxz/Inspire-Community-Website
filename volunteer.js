@@ -22,6 +22,7 @@ function loadScheme(scheme){
 
 function loadHealthScene(){
   console.log("load Health Scheme");
+  console.log(websiteText.learnNewSkills.topText); 
   var panel = document.getElementById("schmeDiv");
 
   while(panel.firstChild) {
@@ -33,7 +34,8 @@ function loadHealthScene(){
  womanPathImage.src= "images/woman_clearing_Path.jpg"
  womanPathImage.id= "womanPathImage";
 
- var healthSchemeText = document.createElement("P")
+ var healthSchemeText = document.createElement("P");
+
  healthSchemeText.innerHTML= "Our garden can make you fit and healthy "
  healthSchemeText.id="healthSchemeText";
 
