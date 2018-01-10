@@ -37,7 +37,7 @@
   float:left;
   border: solid black 1px;
   width: 100%;
-  width-max: 100%; 
+  max-width: : 100%;
 }
 
 .blogDiv
@@ -50,6 +50,8 @@
  height: 300px;
  width: 70%;
  max-width: 900px;
+ overflow-x: scroll;
+
 
 }
 .descriptionText
