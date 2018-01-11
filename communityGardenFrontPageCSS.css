@@ -51,6 +51,15 @@
  width: 70%;
  max-width: 900px;
  overflow-x: scroll;
+}
+.blogPostTitle
+{
+clear: left;
+
+}
+.blogPostContent
+{
+  clear:left;
 
 
 }
@@ -91,4 +100,5 @@ right: 50px;
 width: 20%;
 height: 250px;
 top: 560px;
+overflow: auto; 
 }
