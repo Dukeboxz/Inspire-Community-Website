@@ -24,7 +24,7 @@ var websiteText = {
     'bottomText':  "we welcome families as well and have family themed events during the year such as our Tree Dressing day"
 },
     'generalText': {
-    'volunteerFaq': "If you still have questions about becoming a volunteer go to our volunteer FAQ page",
+    'volunteerFaq': "If you still have questions about becoming a volunteer go to our volunteer FAQ page or fill in the form to contact us",
     'contactUs': "Interested in volunteering just come down to the garden or contact us via social media or by filling in the form here",
     'video': "Check out this video to see how the garden has benefitted some of our volunteers"
   }

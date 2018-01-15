@@ -66,6 +66,19 @@ var bottomImage = document.createElement("img");
 bottomImage.className="bottomImage";
 bottomImage.src="images/workInPlottingShed.jpg";
 
+var videoDiv = document.createElement("div");
+videoDiv.className = "videoDiv";
+var videoText = document.createElement("div");
+videoText.className = "videoText";
+videoText.innerHTML = websiteText.generalText.video;
+videoDiv.appendChild(videoText);
+var videoFrame = document.createElement("iframe");
+videoFrame.className = "videoFrame";
+videoFrame.src= "https://www.youtube.com/embed/3r62UUmnU4E";
+
+videoDiv.appendChild(videoFrame);
+
+
 
 
  panel.appendChild(healthSchemeTopText);
@@ -74,6 +87,9 @@ bottomImage.src="images/workInPlottingShed.jpg";
  panel.appendChild(middleImage);
  panel.appendChild(healthSchemeBottomText);
  panel.appendChild(bottomImage);
+ panel.appendChild(videoDiv)
+
+
 
 
 
