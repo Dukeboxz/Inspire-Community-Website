@@ -148,7 +148,7 @@ width: 35%;
  width: 20%;
  height: 250px;
  top: 240px;
- 
+
 }
 
 .twitterDiv
@@ -160,4 +160,9 @@ width: 20%;
 height: 250px;
 top: 560px;
 overflow: auto;
+}
+
+area :hover
+{
+  cursor: pointer;
 }
