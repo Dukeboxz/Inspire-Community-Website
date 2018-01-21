@@ -1,9 +1,13 @@
-.questionBox {
-    border: 1px solid black;
-    height: 50px;
-    transition:             height 500ms ease;
-        -moz-transition:    height 500ms ease;
-        -ms-transition:     height 500ms ease;
-        -o-transition:      height 500ms ease;
-        -webkit-transition: height 500ms ease;
+
+
+
+.questionContainer, .bodyTitle, .page
+{
+  clear: left;
+
+}
+.bodyTitle
+{
+  font-size: 23px;
+  padding-bottom: 20px; 
 }

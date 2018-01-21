@@ -30,3 +30,20 @@ var websiteText = {
   }
 
 };
+
+var volunteerQuestions = {
+  "questions":[
+   {
+    'qText': "What can I expect as a volunteer?",
+    'qAnswer': "An few weeks of stilted conversation and not knowing what you are doing but if you can get past that you may be accepted"
+
+  },
+   {
+    'qText': "Is it safe at the garden?",
+    'qAnswer': "The garden is as safe as any other normal garden,, unless Ed has his chainsaw out then it is everyman man woman and child for themselves"
+  },
+   {
+    'qText': 'Can I bring children to the garden?',
+    'qAnswer': "we have multiple dangerous holes and drains that need cleared out so children coming to work on the garden would be most welcome"
+  }
+] };
